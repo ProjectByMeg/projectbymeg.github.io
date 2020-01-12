@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: Barlow, Roboto, sans-serif;
+}
+
+header,
+main,
+footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+
+header,
+footer {
+    background-color: #d671ad;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+img {
+    float: right;
+    margin: 10px;
+    box-shadow: 10px 10px 8px #000000;
+}
+
+a:link {
+    color: #327cae;
+}
+
+a:visited {
+    color: #217342;
+}
