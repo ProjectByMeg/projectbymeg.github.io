@@ -15,8 +15,8 @@ footer {
 
 header,
 footer {
-    background-color: #d671ad;
-    color: #ffffff;
+    background-color: #e7accf;
+    color: #00366b;
     text-align: center;
     padding: 1rem;
     border-radius: 10px;
@@ -29,9 +29,9 @@ img {
 }
 
 a:link {
-    color: #327cae;
+    color: #00366b;
 }
 
 a:visited {
-    color: #217342;
+    color: #533875;
 }
