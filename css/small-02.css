@@ -30,6 +30,14 @@ main {
     padding: 10px;
 }
 
+main section {
+    margin: 10px;
+    border: 1px;
+    padding: 5px;
+    text-align: center;
+    background-color: #ededed;
+}
+
 a:link {
     color: #00366b;
 }
