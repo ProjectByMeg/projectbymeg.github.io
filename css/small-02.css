@@ -53,6 +53,6 @@ h2, h3 {
 }
 
 img {
-    max-width: auto;
+    max-width: 75%;
     max-height: auto;
 }
