@@ -1,0 +1,45 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    font-family: 'Barlow', sans-serif;
+}
+
+header,
+main, 
+footer {
+    margin: 1.25rem auto;
+}
+
+header,
+footer {
+    background-color: #e7accf;
+    color: #00366b;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 20px;
+    padding: 10px;
+}
+
+a:link {
+    color: #00366b;
+}
+
+a:visited {
+    color: #533875;
+}
+
+h2, h3 {
+    font-family: 'Barlow', sans-serif;
+    color: #00366b;
+    background-color: #e7accf;
+}
