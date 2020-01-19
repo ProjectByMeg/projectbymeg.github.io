@@ -36,6 +36,7 @@ main section {
     padding: 5px;
     text-align: center;
     background-color: #ededed;
+    max-width: 100%;
 }
 
 a:link {
