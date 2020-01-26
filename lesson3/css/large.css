@@ -1,0 +1,12 @@
+@media (min-width: 64em) {
+    header,
+    main, 
+    footer {
+        margin: 1rem auto;
+        max-width: 100%;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+}
