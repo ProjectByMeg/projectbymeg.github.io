@@ -48,6 +48,11 @@ nav a:visited {
     color: #a2d3ff;
 }
 
+nav a:hover {
+    background-color: #e0c589;
+    color: #4f4f4f;
+}
+
 nav li {
     display: block;
 }
@@ -81,9 +86,4 @@ h6 {
 img {
     max-width: 100%;
     max-height: auto;
-}
-
-#color-scheme {
-    border-color: #ffffff;
-    border-width: 5px;
 }
