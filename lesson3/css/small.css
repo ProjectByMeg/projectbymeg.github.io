@@ -12,7 +12,7 @@ header,
 main,
 footer {
     margin: 1.25rem auto;
-    max-width: 800px;
+    max-width: 95%;
 }
 
 header,
@@ -85,5 +85,8 @@ h6 {
 
 img {
     max-width: 100%;
-    max-height: auto;
 }
+
+#color-scheme {
+    box-shadow: -10px 0px 10px 1px;
+    margin: 15px;
