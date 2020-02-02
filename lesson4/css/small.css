@@ -52,7 +52,6 @@ nav {
     text-align: center;
     text-decoration: none;
     padding: 0.8em 2%;
-    border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .navigation li.active a {
