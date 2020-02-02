@@ -1,0 +1,106 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    font-family: 'Merriweather', serif;
+}
+
+header,
+main,
+footer {
+    margin: 1.25rem auto;
+    max-width: 95%;
+}
+
+header,
+footer {
+    background-color: #a2d3ff;
+    color: #4f4f4f;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 760px;
+    background-color: #4f4f4f;
+    text-align: center;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation li a {
+    display: block;
+    color: #ffe5b4;
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.8em 2%;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.navigation li.active a {
+    background-color: #4f4f4f;
+    color: #ffe5b4;
+}
+
+.navigation li a:hover {
+    background-color: #ffe5b4;
+    color: #4f4f4f;
+}
+
+.responsive li {
+    display: block;
+}
+
+main {
+    display: grid;
+    padding: 10px;
+    background-color: #ffe5b4;
+}
+
+main section {
+    margin: 10px;
+    border-style: dashed;
+    padding: 5px;
+    text-align: center;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Merriweather', serif;
+    color: #4f4f4f;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    max-width: 85%;
+}
+
+#banner {
+    margin-bottom: -10px;
+}
