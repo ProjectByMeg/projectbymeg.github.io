@@ -31,7 +31,7 @@
         <ul class="navigation">
             <li><a class="ham" onclick="toggleMenu()">&#9776;Menu</a></li>
             <li><a href="#">Home</a></li>
-            <li><a href="preston-5.html" class="active">Preston</a></li>
+            <li><a href="preston-6.html" class="active">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="#">Storm Center</a></li>
@@ -43,7 +43,11 @@
         <h2>Preston</h2>
         <section class="hero">
             <div class="herodiv">
-                <img src="img/hero.jpg" alt="Beautiful mountains and a lake">
+                <picture>
+                    <source srcset="img/medium.jpg" media="(min-width: 550px) and (max-width: 799px)">
+                        <source srcset="img/large.jpg" media="(min-width: 800px)">
+                <img src="img/small.jpg" alt="Beautiful mountains and a lake">
+            </picture>
                 <section class="weathersummary">
                     <h2>Weather Summary</h2>
                     <p>Currently: <span id="condition">Cloudy</span></p>
