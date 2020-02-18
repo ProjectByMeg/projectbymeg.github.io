@@ -2,15 +2,12 @@ function toggleMenu() {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
 
-function displayBanner() {
-    let d = new Date();
-    let day = d.getDay();
-    if (day == 5) {
+let d = new Date();
+let day = d.getDay();
+if (day == 5) {
         document.getElementById("banner")[0].style.display("block");
     }
-}
 
-let d = new Date();
 let year = d.getFullYear();
 document.getElementById("currentyear").textContent = year;
 
