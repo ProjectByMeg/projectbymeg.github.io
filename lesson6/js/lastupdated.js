@@ -3,7 +3,11 @@ function toggleMenu() {
 }
 
 function displayBanner() {
-    document.getElementById("banner")[0].style.display("block");
+    let d = new Date();
+    let day = d.getDay();
+    if (day == 5) {
+        document.getElementById("banner")[0].style.display("block");
+    }
 }
 
 let d = new Date();
