@@ -40,7 +40,7 @@ nav {
     display: none;
 }
 
-.navigation li a {
+a {
     display: block;
     color: #ffe5b4;
     font-size: 1.2em;
@@ -50,12 +50,7 @@ nav {
     padding: 0.8em 2%;
 }
 
-.active {
-    color: #4f4f4f;
-    background-color: #ffe5b4;
-}
-
-.navigation li a:hover {
+a:hover {
     background-color: #ffe5b4;
     color: #4f4f4f;
 }
@@ -63,8 +58,14 @@ nav {
 .responsive li {
     display: block;
 }
-.hidden{
+
+.hidden {
     display: none;
+}
+
+.active {
+    color: #4f4f4f;
+    background-color: #ffe5b4;
 }
 
 main {
@@ -89,7 +90,7 @@ h6 {
     font-family: 'Merriweather', serif;
     color: #4f4f4f;
     text-align: center;
-    
+
 }
 
 img {
