@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Meg Irvine">
-     <title>My True Weather</title>
+    <title>My True Weather</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link href="/lesson6/css/small.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
@@ -14,7 +14,8 @@
 </head>
 
 <body>
-    <div id="banner" class="hidden">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+    <div id="banner" class="hidden">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park
+        pavilion.</div>
     <header>
         <div id="logo">
             <!-- Logo here!-->
@@ -45,9 +46,9 @@
             <div class="herodiv">
                 <picture>
                     <source srcset="img/medium.jpg" media="(min-width: 550px) and (max-width: 799px)">
-                        <source srcset="img/large.jpg" media="(min-width: 800px)">
-                <img src="img/small.jpg" alt="Beautiful mountains and a lake">
-            </picture>
+                    <source srcset="img/large.jpg" media="(min-width: 800px)">
+                    <img src="img/small.jpg" alt="Beautiful mountains and a lake">
+                </picture>
                 <section class="weathersummary">
                     <h2>Weather Summary</h2>
                     <p>Currently: <span id="condition">Cloudy</span></p>
@@ -59,7 +60,7 @@
             </div>
         </section>
 
-        <section id="forecast">
+        <section class="forecast">
             <h3>5 Day Forecast</h3>
             <div class="five-forecast">
                 <div class="col">
@@ -90,22 +91,30 @@
             </div>
         </section>
 
-        <section id="article">
+        <section class="article">
             <h3>Article</h3>
             <div class="article-text">
-                <p>Cupcake ipsum dolor sit amet. Topping marshmallow lemon drops muffin chocolate bar carrot cake
-                    marshmallow. Powder chocolate cake cake sesame snaps. Chocolate cake jelly beans icing gummi bears
-                    carrot cake candy canes donut danish. Muffin sugar plum sesame snaps carrot cake. Bear claw lemon
-                    drops liquorice gummi bears. Toffee lollipop marshmallow cotton candy chocolate bar halvah. Chupa
-                    chups jelly beans icing croissant.</p>
+                <p></p>
+                <img src="img/article-image.jpg" alt="Girl reading a book" class="article-image">
+                Cupcake ipsum dolor sit amet. Topping marshmallow lemon drops muffin chocolate bar carrot cake
+                marshmallow. Powder chocolate cake cake sesame snaps. Chocolate cake jelly beans icing gummi bears
+                carrot cake candy canes donut danish. Muffin sugar plum sesame snaps carrot cake. Bear claw lemon
+                drops liquorice gummi bears. Toffee lollipop marshmallow cotton candy chocolate bar halvah. Chupa
+                chups jelly beans icing croissant.
+            </p>
+            <p>
+                Wafer sesame snaps soufflé dragée brownie bonbon icing marshmallow. Cupcake ice cream marshmallow muffin
+                donut jujubes. Sesame snaps chocolate bar carrot cake jelly-o topping macaroon candy canes donut tootsie
+                roll. Lemon drops tart jelly. Icing tootsie roll tootsie roll croissant jelly beans lollipop cotton
+                candy. Candy canes chocolate bar jelly icing. Lemon drops chocolate bar sweet roll sesame snaps tiramisu
+                gingerbread. Tootsie roll lemon drops candy caramels jelly-o cookie marzipan marshmallow.
+            </p>
             </div>
-            <div class="article-image">
-                <img src="img/article-image.jpg" alt="Girl reading a book">
-            </div>
+
         </section>
 
 
-        <section id="contact-info">
+        <section class="contact-info">
             <h3>Contact Information</h3>
             <div class="map">
                 <h4>Map</h4>

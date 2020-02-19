@@ -40,7 +40,7 @@ nav {
     display: none;
 }
 
-a {
+li a {
     display: block;
     color: #ffe5b4;
     font-size: 1.2em;
@@ -50,7 +50,7 @@ a {
     padding: 0.8em 2%;
 }
 
-a:hover {
+li a:hover {
     background-color: #ffe5b4;
     color: #4f4f4f;
 }
@@ -71,7 +71,6 @@ a:hover {
 main {
     display: grid;
     padding: 10px;
-    background-color: #ffe5b4;
 }
 
 main section {
@@ -80,6 +79,13 @@ main section {
     text-align: center;
 }
 
+.article {
+    background-color: #ffe5b4;
+}
+
+.article-image {
+    float: right;
+}
 
 h1,
 h2,
@@ -170,12 +176,13 @@ ul.contact {
     margin: 15px;
 }
 
-#contact-info {
+.contact-info {
     padding: 1.1em;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    background-color: #a2d3ff
 }
 
 .map,
