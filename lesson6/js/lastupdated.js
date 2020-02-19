@@ -5,8 +5,8 @@ function toggleMenu() {
 let d = new Date();
 let day = d.getDay();
 if (day == 5) {
-        document.getElementById("banner")[0].style.display("block");
-    }
+    document.getElementById("banner").removeAttribute("class", "hidden");
+}
 
 let year = d.getFullYear();
 document.getElementById("currentyear").textContent = year;

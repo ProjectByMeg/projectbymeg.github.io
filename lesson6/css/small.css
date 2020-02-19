@@ -51,8 +51,8 @@ nav {
 }
 
 .active {
-    background-color: #4f4f4f;
-    color: #ffe5b4;
+    color: #4f4f4f;
+    background-color: #ffe5b4;
 }
 
 .navigation li a:hover {
@@ -62,6 +62,9 @@ nav {
 
 .responsive li {
     display: block;
+}
+.hidden{
+    display: none;
 }
 
 main {
