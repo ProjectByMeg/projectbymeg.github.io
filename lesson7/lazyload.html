@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Meg Irvine">
+    <title>Progressive Loading</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Progressive Loading (Images)</h1>
+    <picture><img src="img/placeholder.png" data-src="img/vanilla.jpg" alt="vanilla ice cream"></picture>
+    <picture><img src="img/placeholder.png" data-src="img/colorful.jpg" alt="colorful ice cream"></picture>
+    <picture><img src="img/placeholder.png" data-src="img/strawberry.jpg" alt="strawberry ice cream"></picture>
+    <picture><img src="img/placeholder.png" data-src="img/chocolate.jpg" alt="chocolate ice cream"></picture>
+    <picture><img src="img/placeholder.png" data-src="img/bowl.jpg" alt="ice cream in a bowl"></picture>
+
+    <script src="lazyloading.js"></script>
+</body>
+
+</html>
