@@ -178,7 +178,8 @@ ul.contact-list {
 
 .contact-info {
     padding: 1.1em;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
