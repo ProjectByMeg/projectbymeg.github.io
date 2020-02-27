@@ -44,6 +44,10 @@ tbody tr:nth-child(odd) {
   color: #ffffff;
 }
 
+tbody tr:nth-child(6) :nth-child(1) {
+    font-style: italic;
+}
+
 tfoot {
     font-size: 0.8em;
 }
