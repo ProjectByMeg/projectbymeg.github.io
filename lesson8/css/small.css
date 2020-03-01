@@ -247,7 +247,7 @@ form label.top input, form label.top select {
     padding: .75rem;
     width: 100%;
     max-width: 20rem;
-    background-color: #d7edff;
+    background-color: #ffe5b4;
 }
 
 form label.sbs {
@@ -263,4 +263,8 @@ form input.submitBtn {
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
+}
+
+textarea {
+    background-color: #ffe5b4;
 }
