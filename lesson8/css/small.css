@@ -221,3 +221,46 @@ ul.contact-list {
     margin-left: auto;
     margin-right: auto;
 }
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #ffe5b4;
+    border-radius: 10px;
+    padding: .5rem 2%
+}
+
+form legend {
+    color: #4f4f4f;
+    margin: 0 1 rem;
+    padding: 0 0.5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #4f4f4f;
+}
+
+form label.top input, form label.top select {
+    display: block;
+    border: solid 1px #4f4f4f;
+    padding: .75rem;
+    width: 100%;
+    max-width: 20rem;
+    background-color: #d7edff;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #a2d3ff;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
