@@ -47,10 +47,10 @@
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Contact Information</legend>
-                <label class="top">Full Name* <input type="text" name="name" minlength="5" required></label>
+                <label class="top">Full Name* <input type="text" name="name" minlength="5" pattern="[A-Za-zÀ-ž ]+" required></label>
                 <label class="top">E-mail <input type="email" name="email" placeholder="someone@gmail.com"></label>
                 <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
-                <label class="top">Zip Code* <input type="number" name="zip" required pattern="[0-9]*"></label>
+                <label class="top">Zip Code* <input type="number" name="zip" pattern="[0-9]*" required></label>
             </fieldset>
 
             <fieldset>
@@ -105,7 +105,7 @@
             <fieldset>
                 <legend>Comments</legend>
                 <label class="top">Additional information or comments:</label>
-                <textarea id="comments" rows="8" cols="35" placeholder="Please type your comments here."></textarea>
+                <textarea id="comments" name="comments" rows="8" cols="35" placeholder="Please type your comments here."></textarea>
             </fieldset>
 
             <div><input type="submit" value="Report Storm" class="submitBtn"></div>
