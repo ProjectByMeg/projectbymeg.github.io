@@ -13,13 +13,13 @@ fetch(requestURL)
             let image = document.createElement('img');
             let birthday = document.createElement('span');
             let birthplace = document.createElement('p');
-            
+
 
             let fullname = prophets[i].name + ' ' + prophets[i].lastname;
 
             h2.textContent = fullname;
             image.setAttribute('src', prophets[i].imageurl);
-            image.setAttribute('alt', fullname + ' - ' + [i]+1);
+            image.setAttribute('alt', fullname + ' - ' + [i] + 1);
 
             birthday.textContent = 'Date of Birth:' + ' ' + prophets[i].birthdate;
 
