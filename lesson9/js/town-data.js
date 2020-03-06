@@ -19,7 +19,7 @@ fetch(requestURL)
 
             townname.textContent = weather[i].name;
 
-            image.setAttribute('src', weather[i].photo);
+            image.setAttribute('src', 'img/' + weather[i].photo);
 
             motto.textContent = weather[i].motto;
 
@@ -28,7 +28,6 @@ fetch(requestURL)
             rainfall.textContent = 'Annual Rainfall:' + ' ' + weather[i].averageRainfall;
 
             population.textContent = 'Population:' + ' ' + weather[i].currentPopulation;
-    
 
             article.appendChild(townname);
             article.appendChild(motto);
