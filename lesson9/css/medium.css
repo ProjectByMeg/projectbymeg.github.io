@@ -12,16 +12,27 @@
     .town-data section {
         display: flex;
         flex-direction: row;
+        align-items: center;
+        width: 100%;
     }
 
     .town-data section:nth-child(odd) {
         flex-direction: row-reverse;
     }
 
+    .town-data section div {
+        padding: 10px;
+    }
+
     .town-data section img {
         width: auto;
         height: 75%;
         object-fit: scale-down;
+    }
+
+
+    .town-data section img:nth-child(odd) {
+        flex-direction: row-reverse;
     }
 
 }

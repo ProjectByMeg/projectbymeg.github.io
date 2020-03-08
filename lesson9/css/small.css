@@ -215,7 +215,7 @@ ul.contact-list {
 
 .town-data section {
     margin: 0.5rem;
-    padding: 0.5rem 0.1rem 5rem 0.1rem;
+    padding: 10px;
     background-color: #a2d3ff;
 }
 
@@ -223,8 +223,8 @@ ul.contact-list {
     filter: blur(0em);
     transition: filter 2s;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20px;
+    margin-right: 20px;
     box-shadow: 0 10px 10px -10px #4f4f4f;
     padding-top: 15px; 
 }
