@@ -25,20 +25,14 @@
         padding: .6rem 1rem;
     }
 
-    .gallery {
+    .town-data {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr; 
-        grid-column-gap: 30px;
+        grid-column-gap: 15px;
         grid-row-gap: 30px;
     }
-
-    img:hover {
-        box-shadow: 0 0 50px #333;
+    #logo {
+        float: left;
     }
-
-    form input.submitBtn {
-        box-shadow: 10px 10px 8px #4f4f4f;
-    }
-
 }

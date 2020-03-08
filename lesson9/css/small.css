@@ -96,7 +96,10 @@ h6 {
     font-family: 'Merriweather', serif;
     color: #4f4f4f;
     text-align: center;
+}
 
+h4 {
+    font-style: italic;
 }
 
 img {
@@ -202,7 +205,7 @@ ul.contact-list {
     background-color: #4f4f4f;
 }
 
-.gallery {
+.town-data {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; 
@@ -210,61 +213,18 @@ ul.contact-list {
     grid-row-gap: 30px;
 }
 
-.gallery img[data-src] {
-    filter: blur(0.2em);
+.town-data section {
+    margin: 0.5rem;
+    padding: 0.5rem 0.1rem 5rem 0.1rem;
+    background-color: #a2d3ff;
 }
 
-.gallery img {
+.town-data img {
     filter: blur(0em);
     transition: filter 2s;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-form fieldset {
-    margin: 2rem 0;
-    border: 1px solid #ffe5b4;
-    border-radius: 10px;
-    padding: .5rem 2%
-}
-
-form legend {
-    color: #4f4f4f;
-    margin: 0 1rem;
-    padding: 0 0.5rem;
-}
-
-form label.top, form div {
-    display: block;
-    padding-top: 1rem;
-    color: #4f4f4f;
-}
-
-form label.top input, form label.top select {
-    display: block;
-    border: solid 1px #4f4f4f;
-    padding: .75rem;
-    width: 100%;
-    max-width: 20rem;
-    background-color: #ffe5b4;
-}
-
-form label.sbs {
-    display: block;
-    padding: .75rem 0;
-}
-
-form input.submitBtn {
-    border: none;
-    background-color: #a2d3ff;
-    border-radius: 1rem;
-    padding: 1rem;
-    margin: 0 0 2rem 2%;
-    width: 96%;
-    max-width: 20rem;
-}
-
-textarea {
-    background-color: #ffe5b4;
+    box-shadow: 0 10px 10px -10px #4f4f4f;
+    padding-top: 15px; 
 }

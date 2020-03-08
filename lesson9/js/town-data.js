@@ -7,35 +7,32 @@ fetch(requestURL)
     .then(function (jsonObject) {
         //console.table(jsonObject);
         const towns = jsonObject['towns'];
-        let weather = towns.slice(1, 6);
-        for (let i = 0; i < weather.length; i++) {
-            let article = document.createElement('section');
-            let townname = document.createElement('h3');
-            let image = document.createElement('img');
-            let motto = document.createElement('p');
-            let founded = document.createElement('p');
-            let population = document.createElement('p');
-            let rainfall = document.createElement('p');
+        for (let i = 0; i < towns.length; i++) {
+            if (towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs") {
+                let article = document.createElement('section');
+                let townname = document.createElement('h3');
+                let image = document.createElement('img');
+                let motto = document.createElement('h4');
+                let founded = document.createElement('p');
+                let population = document.createElement('p');
+                let rainfall = document.createElement('p');
 
-            townname.textContent = weather[i].name;
+                townname.textContent = towns[i].name;
+                image.setAttribute('src', 'img/' + towns[i].photo);
+                image.setAttribute('alt', towns[i].name)
+                motto.textContent = towns[i].motto;
+                founded.textContent = 'Year Founded:' + ' ' + towns[i].yearFounded;
+                rainfall.textContent = 'Annual Rainfall:' + ' ' + towns[i].averageRainfall;
+                population.textContent = 'Population:' + ' ' + towns[i].currentPopulation;
 
-            image.setAttribute('src', 'img/' + weather[i].photo);
+                article.appendChild(townname);
+                article.appendChild(motto);
+                article.appendChild(founded);
+                article.appendChild(population);
+                article.appendChild(rainfall);
+                article.appendChild(image);
 
-            motto.textContent = weather[i].motto;
-
-            founded.textContent = 'Year Founded:' + ' ' + weather[i].yearFounded;
-
-            rainfall.textContent = 'Annual Rainfall:' + ' ' + weather[i].averageRainfall;
-
-            population.textContent = 'Population:' + ' ' + weather[i].currentPopulation;
-
-            article.appendChild(townname);
-            article.appendChild(motto);
-            article.appendChild(founded);
-            article.appendChild(population);
-            article.appendChild(rainfall);
-            article.appendChild(image);
-
-            document.querySelector('.town-data').appendChild(article);
-        };
+                document.querySelector('.town-data').appendChild(article);
+            }
+        }
     });

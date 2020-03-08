@@ -210,10 +210,6 @@ ul.contact-list {
     grid-row-gap: 30px;
 }
 
-.gallery img[data-src] {
-    filter: blur(0.2em);
-}
-
 .gallery img {
     filter: blur(0em);
     transition: filter 2s;
