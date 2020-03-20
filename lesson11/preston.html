@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Meg Irvine">
+    <title>My True Weather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="css/preston-small.css" rel="stylesheet">
+    <link href="css/preston-medium.css" rel="stylesheet">
+    <link href="css/preston-large.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto%7CMerriweather&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="banner" class="hidden">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park
+        pavilion.</div>
+    <header>
+        <div id="logo">
+            <!-- Logo here!-->
+            <img src="img/logo.png" alt="My True Weather logo">
+        </div>
+        <div id="heading">
+            <h1 class="banner">My True Weather</h1>
+            <br>Your true weather in real time
+        </div>
+    </header>
+
+
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" onclick="toggleMenu()">&#9776;Menu</a></li>
+            <li><a href="http://projectbymeg.github.io/lesson11/index.html"">Home</a></li>
+            <li><a href="http://projectbymeg.github.io/lesson11/preston.html" class="active">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="http://projectbymeg.github.io/lesson11/stormcenter.html">Storm Center</a></li>
+            <li><a href="http://projectbymeg.github.io/lesson11/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Preston</h2>
+        <section class="hero">
+            <div class="herodiv">
+                    <div class="herodiv">
+                            <img src="img/hero.jpg" alt="Beautiful mountains and a lake">
+                <section class="weathersummary">
+                    <h2>Weather Summary</h2>
+                    <p>Currently: <span id="condition">Cloudy</span></p>
+                    <p>High: <span id="high">37</span> &#8457;</p>
+                    <p>Wind Chill: <span id="windchill"></span> &#8457;</p>
+                    <p>Humidity: <span id="humidity">82&#37; </span></p>
+                    <p>Wind Speed: <span id="windspeed">7</span> mph</p>
+                </section>
+            </div>
+        </section>
+
+        <section class="forecast">
+            <h3>5 Day Forecast</h3>
+            <div class="five-forecast">
+                <div class="col">
+                    <span class="label">Saturday</span>
+                    <img src="img/sunny.png" alt="sunny">
+                    <span class="data">30&#8457;</span>
+                </div>
+                <div class="col">
+                    <span class="label">Sunday</span>
+                    <img src="img/sunny.png" alt="sunny">
+                    <span class="data">35&#8457;</span>
+                </div>
+                <div class="col">
+                    <span class="label">Monday</span>
+                    <img src="img/sunny.png" alt="sunny">
+                    <span class="data">31&#8457;</span>
+                </div>
+                <div class="col">
+                    <span class="label">Tuesday</span>
+                    <img src="img/sunny.png" alt="sunny">
+                    <span class="data">29&#8457;</span>
+                </div>
+                <div class="col">
+                    <span class="label">Wednesday</span>
+                    <img src="img/sunny.png" alt="sunny">
+                    <span class="data">31&#8457;</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="article">
+            <h3>Article</h3>
+            <div class="article-text">
+                <p></p>
+                <img src="img/article-image.jpg" alt="Girl reading a book" class="article-image">
+                Cupcake ipsum dolor sit amet. Topping marshmallow lemon drops muffin chocolate bar carrot cake
+                marshmallow. Powder chocolate cake cake sesame snaps. Chocolate cake jelly beans icing gummi bears
+                carrot cake candy canes donut danish. Muffin sugar plum sesame snaps carrot cake. Bear claw lemon
+                drops liquorice gummi bears. Toffee lollipop marshmallow cotton candy chocolate bar halvah. Chupa
+                chups jelly beans icing croissant.
+            </p>
+            <p>
+                Wafer sesame snaps soufflé dragée brownie bonbon icing marshmallow. Cupcake ice cream marshmallow muffin
+                donut jujubes. Sesame snaps chocolate bar carrot cake jelly-o topping macaroon candy canes donut tootsie
+                roll. Lemon drops tart jelly. Icing tootsie roll tootsie roll croissant jelly beans lollipop cotton
+                candy. Candy canes chocolate bar jelly icing. Lemon drops chocolate bar sweet roll sesame snaps tiramisu
+                gingerbread. Tootsie roll lemon drops candy caramels jelly-o cookie marzipan marshmallow.
+            </p>
+            </div>
+
+        </section>
+
+
+        <h3>Contact Information</h3>
+        <section class="contact-info">    
+            <div class="map">
+                <h4>Map</h4>
+                <img src="img/preston-map.jpg" alt="map of Preston">
+            </div>
+            <div class="contact">
+                <h4>My True Weather</h4>
+                <ul class="contact-list">
+                    <li class="mailbox"><img src="img/mailbox.png" alt="mailbox">
+                        12345 Some Avenue<br>
+                        Phoenix, Arizona 85225<br>
+                        USA</li>
+                    <li class="phone"><img src="img/phone.png" alt="phone">602.123.4567</li>
+                    <li class="email"><img src="img/email.png" alt="email">admin@mytrueweather.com</li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        &copy; <span id="currentyear"></span> | Meg Irvine | Arizona | <a href="https://www.byui.edu/online">BYUI Online
+            Learning</a>
+        <br>Last Updated: <span id="lastupdated"></span>
+    </footer>
+    <script src="js/lastupdated.js"></script>
+    <script src="js/windchill.js"></script>
+
+</body>
+
+</html>

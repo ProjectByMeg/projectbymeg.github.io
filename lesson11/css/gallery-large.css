@@ -1,0 +1,40 @@
+@media only screen and (min-width: 64rem) {
+
+    .navigation li a {
+        text-align: center;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    nav {
+    max-width: 95%;
+    }
+
+        nav ul li a {
+        padding: .6rem 1rem;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr; 
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+
+    img:hover {
+        box-shadow: 0 0 50px #333;
+    }
+
+}
