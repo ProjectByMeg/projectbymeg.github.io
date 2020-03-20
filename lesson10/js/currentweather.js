@@ -4,8 +4,8 @@ fetch(apiURL)
   .then((jsObject) => {
     console.log(jsObject);
     document.getElementById('condition').textContent = jsObject.weather[0].description;
-    document.getElementById('current').textContent = jsObject.main.temp;
-    document.getElementById('high').textContent = jsObject.main.temp_max;
+    document.getElementById('current').textContent = Math.round(jsObject.main.temp);
+    document.getElementById('high').textContent = Math.round(jsObject.main.temp_max);
     document.getElementById('humidity').textContent = jsObject.main.humidity;
     document.getElementById('windspeed').textContent = jsObject.wind.speed;
-});
+  });
