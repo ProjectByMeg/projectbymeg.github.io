@@ -1,0 +1,11 @@
+@import "variables";
+
+@import "contact-small";
+
+@media only screen and (min-width: 32.5em) {
+    @import "contact-medium";
+} /* end of media query */
+
+@media only screen and (min-width: 64rem) {
+    @import "contact-large";
+} /* end of media query */

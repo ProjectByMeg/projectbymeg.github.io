@@ -1,0 +1,32 @@
+.navigation li a {
+    text-align: center;
+}
+
+.navigation li {
+    display: block;
+    flex: 1 1 100%;
+}
+
+.navigation li:first-child {
+    display: none;
+}
+
+.navigation {
+    display: flex;
+}
+
+nav {
+max-width: 95%;
+}
+
+nav ul li a {
+    padding: .6rem 1rem;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 40px;
+    text-align: left;
+}
+
