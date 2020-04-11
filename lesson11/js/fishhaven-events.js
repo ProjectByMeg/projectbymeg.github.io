@@ -25,7 +25,7 @@ fetch(requestURL)
                 article.appendChild(events1);
                 article.appendChild(events2);
 
-                document.querySelector('.events').appendChild(article);
+                document.querySelector('.fishhaven-events').appendChild(article);
             }
         }
     });

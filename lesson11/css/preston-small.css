@@ -203,6 +203,9 @@ ul.contact-list {
     background-color: #4f4f4f;
 }
 
-.events {
+.preston-events,
+.fishhaven-events,
+.sodasprings-events,
+ {
     background-color: #ffe5b4;
 }
