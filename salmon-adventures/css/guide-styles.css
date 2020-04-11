@@ -1,9 +1,3 @@
-/* Colors:
-#FFBC9C - light salmon
-#1B5150 - dark green
-#8FC1E3 - light blue
-#F7F9FB - very light gray/blue
-*/
 body {
   font-size: 18px;
   line-height: 1.5;
@@ -106,41 +100,9 @@ img {
   padding-top: 30px;
   padding-bottom: 40px; }
 
-.hero {
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  display: block;
-  overflow: hidden; }
-
-.salmon-river {
-  object-fit: contain; }
-
 h1,
 h2 {
   margin: 0; }
-
-.weathersummary {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  background: radial-gradient(#F7F9FB, #8FC1E3);
-  border: 1px solid #000;
-  padding: 1rem;
-  box-shadow: 0 0 30px #111;
-  opacity: .8;
-  font-size: 14px; }
-
-.book {
-  position: relative;
-  background: #1B5150;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10px; }
-
-.book h1 {
-  color: #F7F9FB; }
 
 .col {
   flex: 1 1 100%;
@@ -164,30 +126,20 @@ table img {
   display: block;
   padding: 0 5px 5px; }
 
-ul.contact-list {
-  list-style-type: none;
-  padding: 15px;
-  margin: 15px; }
-
-#banner {
-  text-align: center;
-  color: #8FC1E3;
-  background-color: #4f4f4f; }
-
-.trips {
+.guides {
   display: grid;
   grid-template-columns: 1fr;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
   font-size: 20px; }
 
-.trips section {
+.guides section {
   margin: 0.5rem;
   padding: 10px;
-  background-color: #8FC1E3;
+  background-color: #FFBC9C;
   border-radius: 10px; }
 
-.trips img {
+.guides img {
   display: block;
   margin-left: 20px;
   margin-right: 20px; }
@@ -196,20 +148,20 @@ ul.contact-list {
   #logo {
     float: left; }
 
-  .trips {
+  .guides {
     display: flex;
     flex-wrap: wrap; }
 
-  .trips section {
+  .guides section {
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 100%; }
 
-  .trips section div {
+  .guides section div {
     padding: 10px; }
 
-  .trips section img {
+  .guides section img {
     width: auto;
     height: 75%;
     object-fit: scale-down; } }
@@ -234,17 +186,14 @@ ul.contact-list {
   nav ul li a {
     padding: .6rem 1rem; }
 
-  .trips {
+  .guides {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 40px;
     text-align: center; }
 
-  .trips section {
+  .guides section {
     display: block; }
-
-  .book {
-    width: 500px; }
 
   #logo {
     float: left; } }
