@@ -100,7 +100,7 @@ h6 {
   max-width: 85%; }
 
 img {
-  max-width: 100%; }
+  max-width: 95%; }
 
 .banner {
   padding-top: 30px;
@@ -110,7 +110,11 @@ img {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  display: block; }
+  display: block;
+  overflow: hidden; }
+
+.salmon-river {
+  object-fit: contain; }
 
 h1,
 h2 {
@@ -130,7 +134,7 @@ h2 {
 .book {
   position: relative;
   background: #1B5150;
-  width: 500px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px; }
@@ -170,45 +174,43 @@ ul.contact-list {
   color: #8FC1E3;
   background-color: #4f4f4f; }
 
-.town-data {
+.trips {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
   grid-column-gap: 30px;
-  grid-row-gap: 30px; }
+  grid-row-gap: 30px;
+  border-radius: 10px;
+  font-size: 18px; }
 
-.town-data section {
+.trips section {
   margin: 0.5rem;
   padding: 10px;
   background-color: #8FC1E3; }
 
-.town-data img {
-  filter: blur(0em);
-  transition: filter 2s;
+.trips img {
   display: block;
   margin-left: 20px;
   margin-right: 20px;
-  box-shadow: 0 10px 10px -10px #1B5150;
   padding-top: 15px; }
 
 @media only screen and (min-width: 32.5em) {
   #logo {
     float: left; }
 
-  .town-data {
+  .trips {
     display: flex;
     flex-wrap: wrap; }
 
-  .town-data section {
+  .trips section {
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 100%; }
 
-  .town-data section div {
+  .trips section div {
     padding: 10px; }
 
-  .town-data section img {
+  .trips section img {
     width: auto;
     height: 75%;
     object-fit: scale-down; } }
@@ -233,11 +235,14 @@ ul.contact-list {
   nav ul li a {
     padding: .6rem 1rem; }
 
-  .town-data {
+  .trips {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 15px;
     grid-row-gap: 30px; }
+
+  .book {
+    width: 500px; }
 
   #logo {
     float: left; } }

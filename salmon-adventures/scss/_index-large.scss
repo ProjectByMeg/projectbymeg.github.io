@@ -19,16 +19,21 @@ nav {
 max-width: 95%;
 }
 
-    nav ul li a {
+nav ul li a {
     padding: .6rem 1rem;
 }
 
-.town-data {
+.trips {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 15px;
     grid-row-gap: 30px;
 }
+
+.book {
+    width: 500px;
+}
+
 #logo {
     float: left;
 }
