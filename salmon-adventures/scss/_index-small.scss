@@ -213,7 +213,6 @@ ul.contact-list {
     grid-template-columns: 1fr;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
-    border-radius: 10px;
     font-size: 20px;
 }
 
@@ -221,11 +220,11 @@ ul.contact-list {
     margin: 0.5rem;
     padding: 10px;
     background-color: $color3;
+    border-radius: 10px;
 }
 
 .trips img {
     display: block;
     margin-left: 20px;
     margin-right: 20px;
-    padding-top: 15px; 
 }

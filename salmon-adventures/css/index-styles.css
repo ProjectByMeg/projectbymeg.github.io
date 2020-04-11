@@ -179,19 +179,18 @@ ul.contact-list {
   grid-template-columns: 1fr;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
-  border-radius: 10px;
   font-size: 20px; }
 
 .trips section {
   margin: 0.5rem;
   padding: 10px;
-  background-color: #8FC1E3; }
+  background-color: #8FC1E3;
+  border-radius: 10px; }
 
 .trips img {
   display: block;
   margin-left: 20px;
-  margin-right: 20px;
-  padding-top: 15px; }
+  margin-right: 20px; }
 
 @media only screen and (min-width: 32.5em) {
   #logo {
