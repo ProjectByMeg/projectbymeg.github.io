@@ -1,0 +1,31 @@
+{
+    "guides": [
+      {
+        "name": "Kay",
+        "photo": "kay.jpg",
+        "yearExp": "2 years",
+        "certLevel": "Class III",
+        "email": "andrea@salmonadventures.com",
+        "bio": 
+            "Kay discovered her love for whitewater rafting as an exchange student in Costa Rica. This California girl now shares her passion with others by guiding adventurers on the Salmon River. Her favorite view is the starry sky from the beach."
+      },
+      {
+        "name": "Helen",
+        "photo": "helen.jpg",
+        "yearExp": "20+ years",
+        "certLevel": "Beginner (Class V)",
+        "email": "helen@salmonadventures.com",
+        "bio":
+          "Idaho native Helen is one of our most experienced guides. With at least two decades' worth of experience under her belt, she is a legend among other guides. Helen enjoys an adrenaline-inducing trip down the river, but she finds fulfillment in guiding beginners. She is like the mom of the group, and she has plenty of stories to share around the campfire."
+      },
+      {
+        "name": "Tanner",
+        "photo": "tanner.jpg",
+        "yearExp": "6 years",
+        "certLevel": "Class IV",
+        "email": "tanner@salmonadventures.com",
+        "bio":
+          "Born and raised in West Virginia, Tanner is at home in the water. His entire family are avid whitewater rafting fans! Tanner is an excellent guide who is never without a smile on his face. Aside from whitewater rafting, Tanner enjoys hiking, rock climbing, and skiing."
+      }
+    ]
+}

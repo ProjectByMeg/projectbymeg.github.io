@@ -237,8 +237,11 @@ ul.contact-list {
   .trips {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 15px;
-    grid-row-gap: 30px; }
+    grid-column-gap: 40px;
+    text-align: center; }
+
+  .trips section {
+    display: block; }
 
   .book {
     width: 500px; }

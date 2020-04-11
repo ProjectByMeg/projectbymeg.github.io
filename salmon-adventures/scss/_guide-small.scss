@@ -1,0 +1,174 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Dosis', sans-serif;
+    color: $color2;
+}
+
+header,
+main,
+footer {
+    margin: 1.25rem auto;
+    max-width: 95%;
+}
+
+header,
+footer {
+    background-color: $color1;
+    color: $color2;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+a,
+a:link
+a:visited {
+    text-decoration: none;
+    color: $color2;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 760px;
+    background-color: $color2;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li {
+    display: none;
+}
+
+li a {
+    display: block;
+    color: $color3;
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0.8em 2%;
+}
+
+li a:hover {
+    background-color: $color3;
+    color: $color2;
+    border-radius: 10px;
+}
+
+.responsive li {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.active {
+    color: $color2;
+    background-color: $color3;
+    border-radius: 10px;
+}
+
+main {
+    display: grid;
+    padding: 10px;
+}
+
+main section {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', serif;
+    color: $color2;
+    text-align: center;
+}
+
+#logo {
+    max-width: 85%;
+}
+
+img {
+    max-width: 95%;
+}
+
+.banner {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+.col {
+    flex: 1 1 100%;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    border-left: 1px solid #333;
+    background-color: $color2;
+    color: $color1;
+    font-size: 13px;
+    text-align: center;
+}
+
+.flex div:last-child {
+    border-right: 1px solid #333;
+}
+
+
+.flex div img,
+table img {
+    border-radius: 100px;
+    padding: 5px;
+}
+
+.data {
+    display: block;
+    padding: 0 5px 5px;
+}
+
+.guides {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    font-size: 20px;
+}
+
+.guides section {
+    margin: 0.5rem;
+    padding: 10px;
+    background-color: $color1;
+    border-radius: 10px;
+}
+
+.guides img {
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+}

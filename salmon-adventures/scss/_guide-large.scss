@@ -23,19 +23,15 @@ nav ul li a {
     padding: .6rem 1rem;
 }
 
-.trips {
+.guides {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 40px;
     text-align: center;
 }
 
-.trips section {
+.guides section {
     display: block;
-}
-
-.book {
-    width: 500px;
 }
 
 #logo {
