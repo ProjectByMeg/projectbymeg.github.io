@@ -14,14 +14,15 @@ fetch(requestURL)
                 let tripname = document.createElement('h3');
                 let image = document.createElement('img');
                 let length = document.createElement('p');
+                let level = document.createElement('p');
                 let cost = document.createElement('p');
 
                 tripname.textContent = trips[i].name;
                 image.setAttribute('src', 'img/' + trips[i].photo);
                 image.setAttribute('alt', trips[i].name)
-                length.textContent = 'Year Founded:' + ' ' + trips[i].length;
-                level.textContent = 'Annual Rainfall:' + ' ' + trips[i].skillLevel;
-                cost.textContent = 'Population:' + ' ' + trips[i].cost;
+                length.textContent = 'Length:' + ' ' + trips[i].length;
+                level.textContent = 'Skill Level:' + ' ' + trips[i].skillLevel;
+                cost.textContent = 'Cost:' + ' ' + trips[i].cost;
 
                 article.appendChild(info);
                 info.appendChild(tripname);
