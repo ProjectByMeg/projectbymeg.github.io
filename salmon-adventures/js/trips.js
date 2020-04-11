@@ -1,4 +1,4 @@
-const requestURL = 'http://projectbymeg.github.io/json/trips.json';
+const requestURL = 'http://projectbymeg.github.io/salmon-adventures/json/trips.json';
 fetch(requestURL)
     .then(function (response) {
         //console.log(response);
