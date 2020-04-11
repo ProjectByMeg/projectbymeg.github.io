@@ -9,6 +9,7 @@ body {
     font-size: 18px;
     line-height: 1.5;
     font-family: 'Dosis', sans-serif;
+    color: $color2;
 }
 
 header,
@@ -25,6 +26,17 @@ footer {
     text-align: center;
     padding: 1rem;
     border-radius: 10px;
+}
+
+a,
+a:link
+a:visited {
+    text-decoration: none;
+    color: $color2;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 nav {
@@ -57,7 +69,6 @@ li a {
     font-size: 1.2em;
     line-height: 1.5;
     text-align: center;
-    text-decoration: none;
     padding: 0.8em 2%;
 }
 
@@ -92,14 +103,6 @@ main section {
     text-align: center;
 }
 
-.article {
-    background-color: $color1;
-}
-
-.article-image {
-    float: right;
-}
-
 h1,
 h2,
 h3,
@@ -111,12 +114,12 @@ h6 {
     text-align: center;
 }
 
-h4 {
-    font-style: italic;
+#logo {
+    max-width: 85%;
 }
 
 img {
-    max-width: 85%;
+    max-width: 100%;
 }
 
 .banner {
@@ -128,7 +131,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    display: inline;
+    display: block;
 }
 
 h1,
@@ -137,11 +140,28 @@ h2 {
 }
 
 .weathersummary {
-    position: relative;
+    position: absolute;
+    top: 0px;
+    left: 0px;
     background: radial-gradient($color4, $color3);
     border: 1px solid #000;
     padding: 1rem;
-    
+    box-shadow: 0 0 30px #111;
+    opacity: .8;
+    font-size: 14px;
+}
+
+.book {
+    position: relative;
+    background: $color2;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.book h2 {
+    color: $color4;
 }
 
 .col {

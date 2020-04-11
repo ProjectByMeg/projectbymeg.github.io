@@ -7,7 +7,8 @@
 body {
   font-size: 18px;
   line-height: 1.5;
-  font-family: 'Dosis', sans-serif; }
+  font-family: 'Dosis', sans-serif;
+  color: #1B5150; }
 
 header,
 main,
@@ -22,6 +23,15 @@ footer {
   text-align: center;
   padding: 1rem;
   border-radius: 10px; }
+
+a,
+a:link
+a:visited {
+  text-decoration: none;
+  color: #1B5150; }
+
+footer a:hover {
+  text-decoration: underline; }
 
 nav {
   margin: 0 auto;
@@ -49,7 +59,6 @@ li a {
   font-size: 1.2em;
   line-height: 1.5;
   text-align: center;
-  text-decoration: none;
   padding: 0.8em 2%; }
 
 li a:hover {
@@ -77,12 +86,6 @@ main section {
   padding: 5px;
   text-align: center; }
 
-.article {
-  background-color: #FFBC9C; }
-
-.article-image {
-  float: right; }
-
 h1,
 h2,
 h3,
@@ -93,11 +96,11 @@ h6 {
   color: #1B5150;
   text-align: center; }
 
-h4 {
-  font-style: italic; }
+#logo {
+  max-width: 85%; }
 
 img {
-  max-width: 85%; }
+  max-width: 100%; }
 
 .banner {
   padding-top: 30px;
@@ -107,17 +110,33 @@ img {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  display: inline; }
+  display: block; }
 
 h1,
 h2 {
   margin: 0; }
 
 .weathersummary {
-  position: relative;
+  position: absolute;
+  top: 0px;
+  left: 0px;
   background: radial-gradient(#F7F9FB, #8FC1E3);
   border: 1px solid #000;
-  padding: 1rem; }
+  padding: 1rem;
+  box-shadow: 0 0 30px #111;
+  opacity: .8;
+  font-size: 14px; }
+
+.book {
+  position: relative;
+  background: #1B5150;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px; }
+
+.book h2 {
+  color: #F7F9FB; }
 
 .col {
   flex: 1 1 100%;

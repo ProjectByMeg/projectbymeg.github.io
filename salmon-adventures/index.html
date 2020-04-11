@@ -14,10 +14,8 @@
 
 <body>
     <header>
-        <div id="logo">
-            <img src="img/logo.png" alt="Salmon River Adventures logo">
-        </div>
-        <div id="heading">
+        <img src="img/logo.png" alt="Salmon River Adventures logo" id="logo">
+        <div class="heading">
             <h1 class="banner">Salmon River Adventures</h1>
         </div>
     </header>
@@ -34,16 +32,29 @@
 
     <main>
         <div class="hero">
-            <img src="img/salmon-river.jpg" alt="salmon-river" class="salmon-river">
+            <img src="img/salmon-river.jpg" alt="Salmon River" class="salmon-river">
             <section class="weathersummary">
-                    <h2>Weather Summary</h2>
-                    <br>Currently: <span id="condition"></span>
-                    <br>Current Temperature: <span id="current"></span>&deg; F
-                    <br>High: <span id="high"></span>&deg; F
-                    <br>Wind Chill: <span id="windchill"></span>
-                    <br>Humidity: <span id="humidity"></span> &#37;
-                    <br>Wind Speed: <span id="windspeed"></span> mph
-                </section>
+                <h3>Weather Summary</h3>
+                <h4>Riggins, ID</h4>
+                Currently: <span id="condition"></span>
+                <br>Current Temperature: <span id="current"></span>&deg; F
+                <br>High: <span id="high"></span>&deg; F
+            </section>
+        </div>
+
+        <div class="introduction">
+            <h2>Best Whitewater Rafting in Idaho!</h2>
+            <p>Looking for adventure? Look no further than the beautiful and scenic Salmon River!</p>
+            <p>The Salmon River flows 425 miles, drains over 14,000 square miles and drops more than 7,000 vertical feet
+                from its headwaters.
+                Natural and untamed, the Salmon River is protected by Congress as one of America’s first Wild and Scenic
+                Rivers. It has shaped its course through a rugged and diverse landscape providing unique river trips you
+                will only experience in Idaho.
+            </p>
+            <section class="book">
+                <a href="http://projectbymeg.github.io/salmon-adventures/plan.html"><h2>Book My Trip!</h2></a>
+            </section>
+
         </div>
     </main>
 
@@ -53,14 +64,15 @@
         <br>USA
         <br>208.123.4567
         <br>admin@salmonadventures.com
-    
+
         <p><a href="https://www.facebook.com" target="_blank"><img src="img/icon-fb.png" alt="Facebook"
                     class="footer-image"></a>
             <a href="https://www.twitter.com" target="_blank"><img src="img/icon-tw.png" alt="Twitter"
                     class="footer-image"></a>
             <a href="https://www.instagram.com" target="_blank"><img src="img/icon-ig.png" alt="Instagram"
                     class="footer-image"></a></p>
-        <br>&copy; 2020 | Meg Irvine | <a href="http://projectbymeg.github.io/salmon-adventures/references.html">References</a>
+        <br>&copy; 2020 | Meg Irvine | <a
+            href="http://projectbymeg.github.io/salmon-adventures/references.html">References</a>
     </footer>
     <script src="js/toggle.js"></script>
     <script src="js/weather.js"></script>
