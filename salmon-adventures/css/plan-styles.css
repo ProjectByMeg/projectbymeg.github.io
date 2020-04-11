@@ -1,9 +1,3 @@
-/* Colors:
-#FFBC9C - light salmon
-#1B5150 - dark green
-#8FC1E3 - light blue
-#F7F9FB - very light gray/blue
-*/
 body {
   font-size: 18px;
   line-height: 1.5;
@@ -25,8 +19,7 @@ footer {
   border-radius: 10px; }
 
 a,
-a:link
-a:visited {
+a:link a:visited {
   text-decoration: none;
   color: #1B5150; }
 
@@ -106,94 +99,78 @@ img {
   padding-top: 30px;
   padding-bottom: 40px; }
 
-.hero {
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #1B5150;
+  border-radius: 10px;
+  padding: 0.5rem 2%; }
+
+form legend {
+  color: #1B5150;
+  margin: 0 1rem;
+  padding: 0 0.5rem; }
+
+form label.top,
+form div {
   display: block;
-  overflow: hidden; }
+  padding-top: 1rem;
+  color: #1B5150; }
 
-.salmon-river {
-  object-fit: contain; }
+form label.top input,
+form label.top select {
+  display: block;
+  border: solid 1px #1B5150;
+  padding: .75rem;
+  width: 100%;
+  max-width: 20rem;
+  background-color: #F7F9FB; }
 
-h1,
-h2 {
-  margin: 0; }
+form label.sbs {
+  display: block;
+  padding: .75rem 0; }
 
-.weathersummary {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  background: radial-gradient(#F7F9FB, #8FC1E3);
-  border: 1px solid #000;
+form input.submitBtn {
+  border: none;
+  background-color: #FFBC9C;
+  border-radius: 1rem;
   padding: 1rem;
-  box-shadow: 0 0 30px #111;
-  opacity: .8;
-  font-size: 14px; }
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem; }
 
-.book {
-  position: relative;
-  background: #1B5150;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10px; }
+textarea {
+  background-color: #F7F9FB; }
 
-.book h2 {
-  color: #F7F9FB; }
+table {
+  border-collapse: collapse;
+  border: 1px solid #F7F9FB; }
 
-.flex div:last-child {
-  border-right: 1px solid #333; }
-
-.flex div img,
-table img {
-  border-radius: 100px;
-  padding: 5px; }
-
-#banner {
+th,
+td {
+  border: 1px solid #F7F9FB;
   text-align: center;
-  color: #8FC1E3;
-  background-color: #4f4f4f; }
+  padding: 10px; }
 
-.trips {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
-  font-size: 20px; }
+thead {
+  background-color: #FFBC9C;
+  font-size: 2em;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold; }
 
-.trips section {
-  margin: 0.5rem;
-  padding: 10px;
-  background-color: #8FC1E3;
-  border-radius: 10px; }
+tbody tr th {
+  background-color: #1B5150;
+  color: #F7F9FB;
+  font-weight: bold; }
 
-.trips img {
-  display: block;
-  margin-left: 20px;
-  margin-right: 20px; }
+tbody tr {
+  background-color: #8FC1E3; }
+
+tbody tr:nth-child(odd) {
+  background-color: #FFBC9C; }
 
 @media only screen and (min-width: 32.5em) {
   #logo {
-    float: left; }
-
-  .trips {
-    display: flex;
-    flex-wrap: wrap; }
-
-  .trips section {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%; }
-
-  .trips section div {
-    padding: 10px; }
-
-  .trips section img {
-    width: auto;
-    height: 75%;
-    object-fit: scale-down; } }
+    float: left; } }
 /* end of media query */
 @media only screen and (min-width: 64rem) {
   .navigation li a {
@@ -213,22 +190,7 @@ table img {
     max-width: 95%; }
 
   nav ul li a {
-    padding: .6rem 1rem; }
-
-  .trips {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 40px;
-    text-align: center; }
-
-  .trips section {
-    display: block; }
-
-  .book {
-    width: 500px; }
-
-  #logo {
-    float: left; } }
+    padding: .6rem 1rem; } }
 /* end of media query */
 
-/*# sourceMappingURL=index-styles.css.map */
+/*# sourceMappingURL=plan-styles.css.map */

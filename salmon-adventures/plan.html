@@ -28,70 +28,106 @@
             <li><a href="http://projectbymeg.github.io/salmon-adventures/index.html">Home</a></li>
             <li><a href="http://projectbymeg.github.io/salmon-adventures/guide.html">Our Guides</a></li>
             <li><a href="http://projectbymeg.github.io/salmon-adventures/contact.html">Contact Us</a></li>
-            <li><a href="http://projectbymeg.github.io/salmon-adventures/plan.html" class="active">Plan Your Trip</a></li>
+            <li><a href="http://projectbymeg.github.io/salmon-adventures/plan.html" class="active">Plan Your Trip</a>
+            </li>
         </ul>
     </nav>
 
     <main>
         <h2>Plan Your Trip</h2>
         <p>We offer the following fun-filled packages, which can be customized according to your group's needs.</p>
-            <table>
-                    <thead>
-                        <tr>
-                            <th colspan="3"></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th>Option </th>
-                            <th>Sales</th>
-                            <th>Sales Goal</th>
-                        </tr>
-            
-                        <tr>
-                            <td>August</td>
-                            <td>$3,590</td>
-                            <td>$4,000</td>
-                        </tr>
-            
-                        <tr>
-                            <td>September</td>
-                            <td>$4,420</td>
-                            <td>$5,000</td>
-                        </tr>
-            
-                        <tr>
-                            <td>October</td>
-                            <td>$4,870</td>
-                            <td>$5,000</td>
-                        </tr>
-            
-                        <tr>
-                            <td>November</td>
-                            <td>$8,610</td>
-                            <td class="unique">$7,500</td>
-                        </tr>
-            
-                        <tr>
-                            <td>Black Friday</td>
-                            <td colspan="2">$3,200</td>
-                        </tr>
-            
-                        <tr>
-                            <td>December</td>
-                            <td>$6,820</td>
-                            <td>$7,500</td>
-                        </tr>
-            
-                    <tfoot>
-                        <tr>
-                            <td colspan="3">Compiled 12.20.2020 by mIrvine</td>
-                        </tr>
-                    </tfoot>
-            
-                    </tbody>
-            
-                </table>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="3">Salmon Adventures</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Option A</th>
+                    <th>Option B</th>
+                    <th>Option C</th>
+                </tr>
+
+                <tr>
+                    <td>1 Day</td>
+                    <td>3 Days</td>
+                    <td>5 Days</td>
+                </tr>
+
+                <tr>
+                    <td>Beginner (Class I)</td>
+                    <td>Beginner (Class I)</td>
+                    <td>Intermediate (Class II-III)</td>
+                </tr>
+
+                <tr>
+                    <td>Starting from $50 per person</td>
+                    <td>Starting from $140 per person</td>
+                    <td>Starting from $230 per person</td>
+                </tr>
+
+                <tr>
+                    <td>Lunch</td>
+                    <td>3 meals per day</td>
+                    <td>3 meals per day</td>
+                </tr>
+
+                <tr>
+                    <td>Guided tour</td>
+                    <td>Guided tour</td>
+                    <td>Guided tour</td>
+                </tr>
+
+                <tr>
+                    <td>Rafting equipment</td>
+                    <td>Rafting equipment</td>
+                    <td>Rafting equipment</td>
+                </tr>
+
+                <tr>
+                        <td></td>
+                        <td>Camping gear</td>
+                        <td>Camping gear</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+        <div class="form">
+            <h3>Registration Form</h3>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label class="top">Full Name* <input type="text" name="name" minlength="5" pattern="[A-Za-zÀ-ž ]+"
+                            required></label>
+                    <label class="top">E-mail* <input type="email" name="email" placeholder="someone@gmail.com"
+                            required></label>
+                    <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Trip Information</legend>
+                    <label class="top">Choose Itinerary
+                        <select name="trip">
+                            <option selected value="" disabled="disabled">-- Select One --</option>
+                            <option value="option-a">Option A</option>
+                            <option value="option-b">Option B</option>
+                            <option value="option-c">Option C</option>
+                        </select>
+                    </label>
+                    <label class="top">Start Date <input type="date" name="startdate"></label>
+                    <label class="top">Group Size <input type="number" name="groupsize"></label>
+                </fieldset>
+
+                <label class="top">Additional comments:</label>
+                <textarea id="message" name="message" rows="8" cols="35"
+                    placeholder="Please type your comments here."></textarea>
+
+                <div><input type="submit" value="Send Message" class="submitBtn"></div>
+
+            </form>
+        </div>
     </main>
 
     <footer>
@@ -100,14 +136,15 @@
         <br>USA
         <br>208.123.4567
         <br>admin@salmonadventures.com
-    
+
         <p><a href="https://www.facebook.com" target="_blank"><img src="img/icon-fb.png" alt="Facebook"
                     class="footer-image"></a>
             <a href="https://www.twitter.com" target="_blank"><img src="img/icon-tw.png" alt="Twitter"
                     class="footer-image"></a>
             <a href="https://www.instagram.com" target="_blank"><img src="img/icon-ig.png" alt="Instagram"
                     class="footer-image"></a></p>
-        <br>&copy; 2020 | Meg Irvine | <a href="http://projectbymeg.github.io/salmon-adventures/references.html">References</a>
+        <br>&copy; 2020 | Meg Irvine | <a
+            href="http://projectbymeg.github.io/salmon-adventures/references.html">References</a>
     </footer>
     <script src="js/toggle.js"></script>
 

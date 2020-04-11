@@ -169,17 +169,6 @@ h2 {
     color: $color4;
 }
 
-.col {
-    flex: 1 1 100%;
-    border-top: 1px solid #333;
-    border-bottom: 1px solid #333;
-    border-left: 1px solid #333;
-    background-color: $color2;
-    color: $color1;
-    font-size: 13px;
-    text-align: center;
-}
-
 .flex div:last-child {
     border-right: 1px solid #333;
 }
@@ -189,17 +178,6 @@ h2 {
 table img {
     border-radius: 100px;
     padding: 5px;
-}
-
-.data {
-    display: block;
-    padding: 0 5px 5px;
-}
-
-ul.contact-list {
-    list-style-type: none;
-    padding: 15px;
-    margin: 15px;
 }
 
 #banner {
