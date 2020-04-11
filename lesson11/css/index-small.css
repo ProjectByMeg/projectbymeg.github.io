@@ -85,6 +85,7 @@ main section {
 
 .article-image {
     float: right;
+    margin: 5px;
 }
 
 h1,
