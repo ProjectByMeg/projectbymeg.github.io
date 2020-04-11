@@ -190,7 +190,8 @@ table img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 40px;
-    text-align: center; }
+    text-align: center;
+    object-fit: contain; }
 
   .guides section {
     display: block; }

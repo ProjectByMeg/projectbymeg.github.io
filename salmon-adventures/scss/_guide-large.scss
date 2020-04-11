@@ -28,6 +28,7 @@ nav ul li a {
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 40px;
     text-align: center;
+    object-fit: contain;
 }
 
 .guides section {
