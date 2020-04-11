@@ -11,30 +11,25 @@ fetch(requestURL)
         for (let i = 0; i < trips.length; i++) {
                 let article = document.createElement('section');
                 let info = document.createElement('div');
-                let townname = document.createElement('h3');
+                let tripname = document.createElement('h3');
                 let image = document.createElement('img');
-                let motto = document.createElement('h4');
-                let founded = document.createElement('p');
-                let population = document.createElement('p');
-                let rainfall = document.createElement('p');
+                let length = document.createElement('p');
+                let cost = document.createElement('p');
 
-                townname.textContent = trips[i].name;
+                tripname.textContent = trips[i].name;
                 image.setAttribute('src', 'img/' + trips[i].photo);
                 image.setAttribute('alt', trips[i].name)
-                motto.textContent = trips[i].motto;
-                founded.textContent = 'Year Founded:' + ' ' + trips[i].yearFounded;
-                rainfall.textContent = 'Annual Rainfall:' + ' ' + trips[i].averageRainfall;
-                population.textContent = 'Population:' + ' ' + trips[i].currentPopulation;
+                length.textContent = 'Year Founded:' + ' ' + trips[i].length;
+                level.textContent = 'Annual Rainfall:' + ' ' + trips[i].skillLevel;
+                cost.textContent = 'Population:' + ' ' + trips[i].cost;
 
                 article.appendChild(info);
-                info.appendChild(townname);
-                info.appendChild(motto);
-                info.appendChild(founded);
-                info.appendChild(population);
-                info.appendChild(rainfall);
+                info.appendChild(tripname);
+                info.appendChild(length);
+                info.appendChild(level);
+                info.appendChild(cost);
                 article.appendChild(image);
 
                 document.querySelector('.trips').appendChild(article);
-            }
         }
     });
