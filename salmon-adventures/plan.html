@@ -110,14 +110,14 @@
                     <legend>Trip Information</legend>
                     <label class="top">Choose Itinerary
                         <select name="trip">
-                            <option selected value="" disabled="disabled">-- Select One --</option>
+                            <option selected value="" disabled="disabled" required>-- Select One --</option>
                             <option value="option-a">Option A</option>
                             <option value="option-b">Option B</option>
                             <option value="option-c">Option C</option>
                         </select>
                     </label>
-                    <label class="top">Start Date <input type="date" name="startdate"></label>
-                    <label class="top">Group Size <input type="number" name="groupsize"></label>
+                    <label class="top">Start Date* <input type="date" name="startdate" required></label>
+                    <label class="top">Group Size* <input type="number" name="groupsize" required></label>
                 </fieldset>
 
                 <label class="top">Additional comments:</label>
