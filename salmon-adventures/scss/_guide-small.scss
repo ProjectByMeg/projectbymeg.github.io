@@ -125,32 +125,7 @@ h2 {
     margin: 0;
 }
 
-.col {
-    flex: 1 1 100%;
-    border-top: 1px solid #333;
-    border-bottom: 1px solid #333;
-    border-left: 1px solid #333;
-    background-color: $color2;
-    color: $color1;
-    font-size: 13px;
-    text-align: center;
-}
 
-.flex div:last-child {
-    border-right: 1px solid #333;
-}
-
-
-.flex div img,
-table img {
-    border-radius: 100px;
-    padding: 5px;
-}
-
-.data {
-    display: block;
-    padding: 0 5px 5px;
-}
 
 .guides {
     display: grid;
@@ -169,6 +144,4 @@ table img {
 
 .guides img {
     display: block;
-    margin-left: 20px;
-    margin-right: 20px;
 }
